@@ -32,7 +32,7 @@ public class Maraton implements IMaraton{
 		return this.atleticari;
 	}
 	public String toString(){
-		return this.place+"\n"+this.year+"\n"+this.atleticari;
+		return this.place+"\n"+this.year+"\n"+najdobroVreme();
 	}
 
 	@Override

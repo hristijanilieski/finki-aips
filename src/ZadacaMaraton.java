@@ -37,6 +37,7 @@ public class ZadacaMaraton {
         System.out.print(m1.toString());
         
         zemjaP = input.nextLine();
+        input.close();
         System.out.println("Prvo mesto: " + m1.najdobroVreme().toString());
         System.out.println("Ima vkupno " + m1.atleticariOd(zemjaP) + " atleticar/i od " + zemjaP);
     }

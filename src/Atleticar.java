@@ -45,6 +45,6 @@ public class Atleticar {
 		return this.contry;
 	}
 	public String toString(){
-		return this.name+" "+this.age+" "+this.contry+" "+this.time;
+		return this.name+" "+this.age+" "+this.contry+" "+this.time+"\n";
 	}
 }

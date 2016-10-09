@@ -32,7 +32,7 @@ public class Maraton implements IMaraton{
 		return this.atleticari;
 	}
 	public String toString(){
-		return this.place+"\n"+this.year+"\n"+najdobroVreme();
+		return this.place+"\n"+this.year+"\n"+najdobroVreme()+"\n";
 	}
 
 	@Override
@@ -51,8 +51,8 @@ public class Maraton implements IMaraton{
 	@Override
 	public int atleticariOd(String s) {
 		int counter=0;
-		for(int i=1; i<atleticari.length; i++){
-			if(atleticari[i].getContry() == s){
+		for(int i=0; i<atleticari.length; i++){
+			if(atleticari[i].getContry().equals(s)){
 				counter++;
 			}
 		}
